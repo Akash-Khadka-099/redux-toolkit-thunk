@@ -5,7 +5,7 @@ import { getPosts } from "../states/DataSlice"
 
 
 
-function AllShow() {
+function Todos() {
     const dispatch = useDispatch();
     const selector = useSelector((state) => state.Post.list)
 
@@ -38,5 +38,5 @@ function AllShow() {
     )
 }
 
-export default AllShow;
+export default Todos;
 
